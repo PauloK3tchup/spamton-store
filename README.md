@@ -4,7 +4,7 @@ Alunos: [Paulo César N. Padilha](github.com/PauloK3tchup) e [Gabriel Fernandes 
 
 Links do projeto:
 
--   [Documentação (esse documento)](https://github.com/PauloK3tchup/spamton-store)
+-   [Documentação (esse documento)](https://github.com/PauloK3tchup/spamton-store-docs)
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
