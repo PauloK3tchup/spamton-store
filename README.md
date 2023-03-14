@@ -1,6 +1,6 @@
 # Projeto Integrador - Spamton Store
 
-Alunos: [Paulo César N. Padilha](github.com/PauloK3tchup) e [Gabriel Fernandes Domingos](https://st.depositphotos.com/1518767/4823/i/950/depositphotos_48239019-stock-photo-businessman-shrugging-shoulders.jpg).
+Alunos: [Paulo César N. Padilha](github.com/PauloK3tchup) e [Gabriel Fernandes Domingos](github.com/Brobss).
 
 Links do projeto:
 
