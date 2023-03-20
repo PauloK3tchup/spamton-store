@@ -1,12 +1,12 @@
 # Projeto Integrador - Spamton Store
 
-Alunos: [Paulo César N. Padilha](github.com/PauloK3tchup) e [Gabriel Fernandes Domingos](github.com/Brobss).
+Alunos: [Paulo César N. Padilha](https://github.com/PauloK3tchup) e [Gabriel Fernandes Domingos](https://github.com/Brobss).
 
 Links do projeto:
 
 - [Documentação (esse documento)](https://github.com/PauloK3tchup/spamton-store-docs)
-- [Backend](lol)
-- [Frontend](bruh)
+- [Backend]()
+- [Frontend]()
 
 # Introdução
 
@@ -22,6 +22,7 @@ Após selecionar o produto, o cliente faz o pedido com Spamton, que registra a c
 Ao retornar ao caixa, Spamton conclui a venda manualmente, entregando o produto diretamente ao cliente. Ele também registra a venda em seu diário, para manter um controle das vendas realizadas.
 
 Dessa forma, o cliente pode finalizar sua compra de maneira rápida e eficiente, com o auxílio de Spamton como caixa e atendente da loja.
+
 <img src="docs/cliente%20no%20balcão.png" width="500" height="500">
 
 # Conclusão
