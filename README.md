@@ -4,23 +4,25 @@ Alunos: [Paulo César N. Padilha](github.com/PauloK3tchup) e [Gabriel Fernandes 
 
 Links do projeto:
 
--   [Documentação (esse documento)](https://github.com/PauloK3tchup/spamton-store-docs)
--   [Backend](lol)
--   [Frontend](bruh)
+- [Documentação (esse documento)](https://github.com/PauloK3tchup/spamton-store-docs)
+- [Backend](lol)
+- [Frontend](bruh)
 
 # Introdução
 
-Spamton Store é uma loja de produtos variados que está no mercado desde 1997. 
+Spamton Store é uma loja de produtos variados que está no mercado desde 1997.
 Seu fundador e único funcionário é o humilde vendedor Spamton G. Spamton. Os produtos são caseiros (estavam na casa dele) e variam desde frutas e legumes a automóveis e dispositivos perigosos.
 
 # Situação Problema
 
+Ao chegar na loja, o cliente é recebido por Spamton, que atua como caixa e responsável pelo atendimento ao cliente. Ele se dirige ao balcão e pode visualizar os produtos disponíveis na loja, a fim de escolher o que deseja comprar.
 
-O cliente se desloca até a casa de Spamton e entra pela porta. Ao entrar na casa o cliente se desloca até o balcão no qual Spamton trabalha como caixa, e nele pode ver ou solicitar um item disponível.
+Após selecionar o produto, o cliente faz o pedido com Spamton, que registra a compra. Em seguida, ele se dirige à dispensa ao lado do caixa, para verificar a disponibilidade do item solicitado e retirá-lo do estoque.
 
-![Cliente no balcão de Spamton](docs/cliente%20no%20balc%C3%A3o.png "Cliente & Spamton")
+Ao retornar ao caixa, Spamton conclui a venda manualmente, entregando o produto diretamente ao cliente. Ele também registra a venda em seu diário, para manter um controle das vendas realizadas.
 
- Spamton anota o pedido e vai até a dispensa ao lado verificar a disponibilidade do item solicitado e retira-lo do estoque. Spamton retorna ao caixa e conclui a venda manualmente, entregando o produto diretamente ao cliente e anotando a venda em seu diário. 
+Dessa forma, o cliente pode finalizar sua compra de maneira rápida e eficiente, com o auxílio de Spamton como caixa e atendente da loja.
+<img src="docs/cliente%20no%20balcão.png" width="500" height="500">
 
 # Conclusão
 
@@ -32,4 +34,4 @@ O software tem a função de compra e venda de produtos (loja online) pelo lado 
 
 - Gestor: Terá uma conta administrativa. Ele terá acesso ao gerenciamento do estoque, podendo verificar a disponibilidade em tempo real e organizar os itens disponíveis na loja online. O gestor terá acesso aos relatórios das vendas, que serão feitos de forma automática. Também terá acesso aos pedidos dos clientes para organizar as formas de entrega selecionadas pelos mesmos.
 
-- Cliente: O cliente terá acesso à loja online, vendo os produtos disponíveis e podendo compra-los com diferentes meios de pagamento, desde cartão de crédito até pagamento no local. A loja online permite que o cliente selecione o tipo de entrega: retirada no local ou entrega em seu endereço. Para ter acesso as funções de compra o cliente terá de criar uma conta no site, informando seu endereço e dados de pagamento.  
+- Cliente: O cliente terá acesso à loja online, procurando os produtos disponíveis e podendo comprá-los com diferentes meios de pagamento, desde cartão de crédito até pagamento no local. A loja online permite que o cliente selecione o tipo de entrega: retirada no local ou entrega em seu endereço. Para ter acesso às funções de compra o cliente terá de criar uma conta no site, informando seu endereço e dados de pagamento.
