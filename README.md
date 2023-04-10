@@ -35,32 +35,62 @@ O software tem a função de compra e venda de produtos (loja online) pelo lado 
 
 - Gestor: Terá uma conta administrativa. Ele terá acesso ao gerenciamento do estoque, podendo verificar a disponibilidade em tempo real e organizar os itens disponíveis na loja online. O gestor terá acesso aos relatórios das vendas, que serão feitos de forma automática. Também terá acesso aos pedidos dos clientes para organizar as formas de entrega selecionadas pelos mesmos.
 
-- Cliente: O cliente terá acesso à loja online, procurando os produtos disponíveis e podendo comprá-los com diferentes meios de pagamento, desde cartão de crédito até pagamento no local. A loja online permite que o cliente selecione o tipo de entrega: retirada no local ou entrega em seu endereço. Para ter acesso às funções de compra o cliente terá de criar uma conta no site, informando seu endereço e dados de pagamento.
+- Cliente: O cliente terá acesso à loja online, procurando os produtos disponíveis e podendo comprá-los com diferentes meios de pagamento. A loja online permite que o cliente selecione o tipo de entrega: retirada no local ou entrega em seu endereço. Para ter acesso às funções de compra o cliente terá de criar uma conta no site, informando seu endereço e dados de pagamento.
 
 # Regras de Negócio
 
-- **RN01 - Cadastro de clientes:** O software deve permitir que os clientes criem uma conta na loja online, informando seu nome, endereço e dados de pagamento. Os clientes também devem poder fazer login na loja online com suas contas criadas.
+- **RN01 - Cadastro de clientes:** O software deve permitir que os clientes criem uma conta na loja online. Os clientes também devem poder fazer login na loja online com suas contas criadas.
 
 - **RN02 - Catálogo de produtos:** O software deve manter um catálogo de produtos disponíveis para venda na loja online, permitindo que os clientes visualizem os produtos e selecionem os que desejam comprar.
 
 - **RN03 - Compra Restrita a Usuários Autenticados:** O software deve permitir que apenas usuários autenticados façam compras na loja online.
 
-- **RN04 - Segurança dos dados:** Todas as informações fornecidas pelos clientes, como endereço, dados de pagamento e informações de contato, devem ser protegidas e criptografadas para garantir a privacidade e segurança das informações.
+- **RN04 - Carrinho de compras:** O software deve permitir que os clientes adicionem produtos ao carrinho de compras, selecionando a quantidade de cada produto e a forma de entrega. O software deve calcular automaticamente o valor total da compra.
 
-- **RN05 - Controle de estoque:** O software deve manter um registro atualizado do estoque de produtos disponíveis para venda e alertar o gestor quando a quantidade mínima de um produto for atingida.
+- **RN05 - Compra de produtos:** O software deve permitir que os clientes façam compras na loja online, selecionando a forma de pagamento e a forma de entrega.
 
-- **RN06 - Relatórios de vendas:** O software deve gerar automaticamente relatórios de vendas diárias, semanais e mensais para o gestor, permitindo o acompanhamento do desempenho da loja e identificação de tendências e oportunidades de melhoria.
+- **RN06 - Controle de estoque:** O software deve manter um registro atualizado do estoque de produtos disponíveis para venda e alertar o gestor quando a quantidade mínima de um produto for atingida.
 
-- **RN07 - Processamento de pagamento:** O software deve permitir que os clientes façam pagamentos online de forma segura e eficiente, aceitando diferentes formas de pagamento, como cartão de crédito, transferência bancária, PIX e boleto bancário.
+- **RN07 - Relatórios de vendas:** O software deve gerar automaticamente relatórios de vendas diárias, semanais e mensais para o gestor, permitindo o acompanhamento do desempenho da loja e identificação de tendências e oportunidades de melhoria.
+
+- **RN08 - Processamento de pagamento:** O software deve permitir que os clientes façam pagamentos online de forma segura e eficiente, aceitando diferentes formas de pagamento, como cartão de crédito, transferência bancária, PIX e boleto bancário.
 
 - **RN08 - Gestão de pedidos:** O software deve permitir que o gestor gerencie os pedidos dos clientes, organizando as formas de entrega selecionadas e mantendo os clientes informados sobre o status de seus pedidos.
 
-- **RN09 - Atualizações de produtos:** O gestor deve ser capaz de atualizar o catálogo de produtos disponíveis na loja online, incluindo novos produtos e removendo itens que não estão mais disponíveis.
+- **RN10 - Atualizações de produtos:** O gestor deve ser capaz de atualizar o catálogo de produtos disponíveis na loja online, incluindo novos produtos e removendo itens que não estão mais disponíveis.
 
-- **RN10 - Política de devolução:** A loja deve ter uma política clara de devolução de produtos, informando aos clientes os prazos e condições para devolução e reembolso de produtos.
+- **RN11 - Política de devolução:** A loja deve ter uma política clara de devolução de produtos, informando aos clientes os prazos e condições para devolução e reembolso de produtos.
 
-- **RN11 - Histórico de compras:** O software deve manter um histórico das compras realizadas pelos clientes, permitindo que eles visualizem suas compras anteriores e facilitando futuras compras.
+- **RN12 - Histórico de compras:** O software deve manter um histórico das compras realizadas pelos clientes, permitindo que eles visualizem suas compras anteriores e facilitando futuras compras.
 
-- **RN12 - Descontos e promoções:** O software deve permitir a criação de descontos e promoções em produtos selecionados, bem como a emissão de cupons de desconto para os clientes.
+- **RN13 - Descontos e promoções:** O software deve permitir a criação de descontos e promoções em produtos selecionados, bem como a emissão de cupons de desconto para os clientes.
 
-- **RN13 - Avaliação dos Clientes** - O software deve permitir que os clientes avaliem os produtos que compraram, permitindo que outros clientes visualizem as avaliações e comentários.
+- **RN14 - Avaliação dos Clientes** - O software deve permitir que os clientes avaliem os produtos que compraram, permitindo que outros clientes visualizem as avaliações e comentários.
+
+# Requisitos Funcionais
+
+## Entradas
+
+- **R.F. 01 - Cadastro de clientes:** O software deve permitir que os clientes criem uma conta na loja online. Os clientes também devem poder fazer login na loja online com suas contas criadas. <ins>Dados necessários:</ins> Nome, CPF, endereço, telefone, e-mail, senha. <ins>Usuários:</ins> todos.
+
+- **R.F. 02 - Gestão de Estoque:** O software deve permitir que o gestor gerencie o estoque de produtos disponíveis na loja online, permitindo a adição de novos produtos e a remoção de produtos que não estão mais disponíveis. <ins>Dados necessários:</ins> Nome, descrição, preço, quantidade, categoria. <ins>Usuários:</ins> gestor.
+
+- **R.F. 03 - Cadastro de métodos de pagamento:** O software deve permitir que o usuário cadastre novos meios de pagamento em sua conta. <ins>Dados necessários:</ins> Nome do cartão, número do cartão, data de validade, código de segurança. <ins>Usuários:</ins> todos.
+
+- **R.F. 04 - Avaliações:** O software deve permitir que os clientes avaliem os produtos que compraram, permitindo que outros clientes visualizem as avaliações e comentários. <ins>Dados necessários:</ins> Avaliação, comentário. <ins>Usuários:</ins> todos.
+
+## Processos
+
+- **R.F. 05 - Gestão de Pedidos:** O software deve permitir que o gestor gerencie os pedidos dos clientes, organizando as formas de entrega selecionadas e mantendo os clientes informados sobre o status de seus pedidos. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> gestor.
+
+- **R.F. 06 - Pesquisa:** O software deve permitir que os clientes pesquisem produtos na loja online, filtrando os resultados por categoria, preço e disponibilidade. <ins>Dados necessários:</ins> Nome do produto, categoria, preço, disponibilidade. <ins>Usuários:</ins> todos.
+
+- **R.F. 07 - Carrinho:** O software deve permitir que os clientes adicionem produtos ao carrinho de compras, selecionando a quantidade de cada produto e a forma de entrega. O software deve calcular automaticamente o valor total da compra. <ins>Dados necessários:</ins> código do produto, quantidade, forma de entrega. <ins>Usuários:</ins> todos.
+
+- **R.F. 08 - Compra de produtos** - O software deve permitir que os clientes façam compras na loja online, selecionando a forma de pagamento e a forma de entrega. <ins>Dados necessários:</ins> dados do método de pagamento selecionado, código da conta do usuário. <ins>Usuários:</ins> todos.
+
+- **R.F. 09 - Débito em conta:** O software deve permitir que os clientes façam pagamentos online de forma segura e eficiente, aceitando diferentes formas de pagamento, como cartão de débito, transferência bancária, PIX e boleto bancário. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> todos.
+
+- **R.F. 10 - Crédito em conta:** O software deve permitir que os clientes façam pagamentos online de forma segura e eficiente, aceitando cartão de crédito. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> todos.
+
+## Saídas
