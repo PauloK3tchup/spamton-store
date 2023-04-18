@@ -93,4 +93,10 @@ O software tem a função de compra e venda de produtos (loja online) pelo lado 
 
 - **R.F. 10 - Crédito em conta:** O software deve permitir que os clientes façam pagamentos online de forma segura e eficiente, aceitando cartão de crédito. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> todos.
 
+- **R.F. 11 - Histórico de Compras:** O software deve manter um histórico das compras realizadas pelos clientes, permitindo que eles visualizem suas compras anteriores e facilitando futuras compras. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> todos.
+
 ## Saídas
+
+- **R.F. 12 - Exibição de Produtos:** O software deve exibir os produtos disponíveis na loja online, permitindo que os clientes visualizem os detalhes de cada produto. <ins>Dados necessários:</ins> Nome, descrição, preço, quantidade, categoria. <ins>Usuários:</ins> todos.
+
+- **R.F. 13 - Relatórios:** O software deve gerar automaticamente relatórios de vendas diárias, semanais e mensais para o gestor, permitindo o acompanhamento do desempenho da loja e identificação de tendências e oportunidades de melhoria. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> gestor.
