@@ -100,3 +100,29 @@ O software tem a função de compra e venda de produtos (loja online) pelo lado 
 - **R.F. 12 - Exibição de Produtos:** O software deve exibir os produtos disponíveis na loja online, permitindo que os clientes visualizem os detalhes de cada produto. <ins>Dados necessários:</ins> Nome, descrição, preço, quantidade, categoria. <ins>Usuários:</ins> todos.
 
 - **R.F. 13 - Relatórios:** O software deve gerar automaticamente relatórios de vendas diárias, semanais e mensais para o gestor, permitindo o acompanhamento do desempenho da loja e identificação de tendências e oportunidades de melhoria. <ins>Dados necessários:</ins> código do pedido, código da conta do usuário. <ins>Usuários:</ins> gestor.
+
+# Requisítos Não Funcionais
+
+## Requisitos de Qualidade
+
+- **R.N.F. 01 - Navegador homologado:** O sistema deverá ser homologado para Google Chrome, Microsoft Edge, Opera e Firefox.
+
+- **R.N.F. 02 - Disponibilidade:** O sistema deverá estar disponível 24 horas por dia, 7 dias por semana.
+
+- **R.N.F. 03 - Segurança:** O sistema deverá ser seguro, evitando que dados sensíveis dos clientes sejam expostos a terceiros.
+
+- **R.N.F. 04 - Responsividade:** O sistema deverá ser responsivo, permitindo que os clientes acessem a loja online de qualquer dispositivo, como computadores, tablets e smartphones.
+
+- **R.N.F. 05 - Desempenho:** O software deve ser capaz de processar um grande número de transações simultaneamente sem diminuir significativamente o desempenho. Por exemplo, o sistema deve ser capaz de lidar com picos de tráfego durante as promoções de vendas da loja sem sofrer interrupções ou quedas de performance.
+
+- **R.N.F. 06 - Usabilidade:** O software deve ser fácil de usar para os clientes, com interface intuitiva e instruções claras. Além disso, o sistema deve ser responsivo e compatível com dispositivos móveis, permitindo que os clientes façam compras de qualquer lugar, a qualquer hora.
+
+- **R.N.F. 07 - Manutenção:** O software deve ser facilmente mantido e atualizado, permitindo que os desenvolvedores adicionem novos recursos e corrijam bugs sem interromper o funcionamento da loja online.
+
+- **R.N.F. 08 - Arquitetura:** A arquitetura que será utilizada para criação do sistema será Rest.
+
+## Restrições
+
+- **R.N.F. 09 - Segurança de Vendas:** O sistema deve garantir que apenas usuários autenticados e com todos os dados obrigatórios cadastrados possam realizar compras na loja online.
+
+- **R.N.F. 10 - Restrição de Acesso:** O sistema deve garantir que apenas o gestor tenha acesso às funcionalidades de gestão de estoque, pedidos e relatórios.
