@@ -8,12 +8,10 @@ Links do projeto:
 - [Backend]()
 - [Frontend]()
 
-# Introdução
-
+# Situação Problema
 Spamton Store é uma loja de produtos variados que está no mercado desde 1997.
 Seu fundador e único funcionário é o humilde vendedor Spamton G. Spamton. Os produtos são caseiros (estavam na casa dele) e variam desde frutas e legumes a automóveis e dispositivos perigosos.
 
-# Situação Problema
 
 Ao chegar na loja, o cliente é recebido por Spamton, que atua como caixa e responsável pelo atendimento ao cliente. Ele se dirige ao balcão e pode visualizar os produtos disponíveis na loja, a fim de escolher o que deseja comprar.
 
@@ -25,10 +23,7 @@ Dessa forma, o cliente pode finalizar sua compra de maneira rápida e eficiente,
 
 <img src="docs/cliente%20no%20balcão.png" width="500" height="500">
 
-# Conclusão
-
 Existem diversos fatores atrasando a execução dos serviços de Spamton. Todo o trabalho é feito manualmente, Spamton sempre tem de ir a sua dispensa verificar a disponibilidade do estoque. As vendas e relatórios também são feitas à mão. Estes fatores fazem com que, em dias muito movimentados, Spamton tenha de repetir estes processos manuais diversas vezes, atrasando muito o fluxo de vendas e pessoas na loja, fazendo com que diversos clientes fiquem insatisfeitos com a longa espera. Um software removeria todos esses problemas, ajudando a organizar o estoque e otimizar as vendas.
-
 # Descrição da proposta
 
 O software tem a função de compra e venda de produtos (loja online) pelo lado do cliente e organização do estoque e relatórios pela parte administrativa. O sistema terá dois tipos de usuário: gestor e cliente.
